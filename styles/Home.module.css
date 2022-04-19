@@ -1,0 +1,136 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.main form {
+  padding: 15px 0;
+}
+
+.main form input {
+  padding: 6px 12px;
+  margin: 5px;
+}
+
+.main form button {
+  padding: 6px 12px;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.section {
+  width: 100%;
+}
+
+.box {
+  padding: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #e7e7e7;
+  border: 1px solid #b1b1b1;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin: 0;
+}
+
+.address {
+  margin: 0;
+  margin-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.movieBox {
+  display: grid;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+}
+
+.movieBox .movieName {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: blue;
+}
+
+.movieBox img {
+  height: 300px;
+}
+
+.movieRate {
+  font-weight: 600;
+  margin: 0;
+}
+
+.movieInfo {
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1600px) {
+  .movieBox {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .movieBox {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .movieBox {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .movieBox img {
+    height: 200px;
+  }
+  .movieBox {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+
+@media only screen and (max-width: 662px) {
+  .movieBox {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .movieBox img {
+    height: 150px;
+  }
+  .movieBox {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
